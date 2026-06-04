@@ -16,12 +16,12 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Support healthcare professionals in decision-making.
 - Improve community health awareness and preventive care.
 - Enable timely medical intervention through early detection.
-User Roles
+##User Roles
 🔸 Administrator
 🔸 Doctor
 🔸 Healthcare Worker
 🔸 Community Member (Patient)
-Module List
+##Module List
 Dashboard
 🔸 Provides an overview of community health statistics, disease trends, alerts, and prediction summaries.
 User Management
