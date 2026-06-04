@@ -16,3 +16,29 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Support healthcare professionals in decision-making.
 - Improve community health awareness and preventive care.
 - Enable timely medical intervention through early detection.
+User Roles
+🔸 Administrator
+🔸 Doctor
+🔸 Healthcare Worker
+🔸 Community Member (Patient)
+Module List
+Dashboard
+🔸 Provides an overview of community health statistics, disease trends, alerts, and prediction summaries.
+User Management
+🔸 Manages user registration, login, profiles, roles, and access permissions.
+Health Data Collection
+🔸 Collects patient health information such as symptoms, vital signs, medical history, and health records.
+Disease Prediction
+🔸 Uses AI and Machine Learning algorithms to predict potential diseases based on health data.
+Community Health Monitoring
+🔸 Tracks disease patterns, monitors community health status, and identifies high-risk areas.
+Alert & Notification
+🔸 Sends health alerts, early disease warnings, reminders, and emergency notifications.
+Doctor Consultation
+🔸 Allows doctors to review patient data, provide recommendations, and monitor patient progress.
+Report Generation
+🔸 Generates individual health reports, disease prediction reports, and community health analysis reports.
+Analytics Dashboard
+🔸 Displays charts, statistics, disease distribution, and health trend analysis.
+Settings
+🔸 Allows users to manage account settings, security preferences, and notification settings.
