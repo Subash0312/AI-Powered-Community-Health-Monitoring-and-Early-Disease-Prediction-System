@@ -54,56 +54,6 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 ### Report Generation
 🔸 Generates individual and community health reports.
 
-+------------------+
-                          |  Administrator   |
-                          +------------------+
-                                   |
-          ------------------------------------------------
-          |                    |                        |
-          v                    v                        v
-     Manage Users      View Reports          Monitor System
-
-                                   |
-                                   |
-     ----------------------------------------------------------------
-     |                                                              |
-     v                                                              v
-
-+------------------+                                    +------------------+
-| Healthcare Worker|                                    |      Doctor      |
-+------------------+                                    +------------------+
-        |                                                         |
-        |                                                         |
-        v                                                         v
-  Collect Health Data                                   View Patient Data
-  Update Health Records                                 Analyze Predictions
-  Upload Vital Signs                                    Give Recommendations
-
-                             +----------------------+
-                             |   AI Prediction      |
-                             |       System         |
-                             +----------------------+
-                                      ^
-                                      |
-                                      |
-                           Predict Disease Risk
-                           Generate Reports
-                           Send Notifications
-
-                                      ^
-                                      |
-                                      |
-
-                          +----------------------+
-                          | Community Member     |
-                          |      (Patient)       |
-                          +----------------------+
-                                      |
-          ----------------------------------------------------
-          |                 |                |               |
-          v                 v                v               v
-      Register/Login   Enter Symptoms   View Reports   Receive Alerts
-### Analytics Dashboard
 🔸 Displays health statistics, charts, and trend analysis.
 
 ### Settings
