@@ -59,3 +59,73 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 
 ### Settings
 🔸 Manages account and notification settings.
+## Use Case Diagram
+
+### Actors
+- Administrator
+- Doctor
+- Healthcare Worker
+- Community Member (Patient)
+
+### Use Cases
+
+#### Administrator
+- Manage Users
+- View Reports
+- Monitor System
+
+#### Healthcare Worker
+- Collect Health Data
+- Update Health Records
+- Upload Vital Signs
+
+#### Doctor
+- View Patient Data
+- Analyze Predictions
+- Provide Recommendations
+
+#### Community Member (Patient)
+- Register/Login
+- Enter Symptoms
+- View Health Reports
+- Receive Alerts
+
+#### AI Prediction System
+- Predict Disease Risk
+- Generate Reports
+- Send Notifications
+
+### Use Case Structure
+
+```text
+Administrator
+    |
+    +--> Manage Users
+    +--> View Reports
+    +--> Monitor System
+
+Healthcare Worker
+    |
+    +--> Collect Health Data
+    +--> Update Health Records
+    +--> Upload Vital Signs
+
+Doctor
+    |
+    +--> View Patient Data
+    +--> Analyze Predictions
+    +--> Provide Recommendations
+
+Community Member (Patient)
+    |
+    +--> Register/Login
+    +--> Enter Symptoms
+    +--> View Health Reports
+    +--> Receive Alerts
+
+AI Prediction System
+    |
+    +--> Predict Disease Risk
+    +--> Generate Reports
+    +--> Send Notifications
+```
