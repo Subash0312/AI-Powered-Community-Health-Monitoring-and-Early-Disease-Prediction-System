@@ -66,44 +66,52 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Healthcare Worker
 - Community Member (Patient)
 
-                    +----------------------+
-                    | Community Member     |
-                    |      (Patient)       |
-                    +----------------------+
-                               |
-      ------------------------------------------------
-      |              |              |               |
-      |              |              |               |
-  Register      Enter Health    View Health    Receive
-   Login            Data          Report        Alerts
+                     
+## Use Case Diagram
+
+```text
++----------------------+
+| Community Member     |
+|      (Patient)       |
++----------------------+
+        |
+-----------------------------
+|      |        |         |
+|      |        |         |
+Register  Enter   View    Receive
+Login     Health  Report  Alerts
+          Data
 
 
-                    +----------------------+
-                    | Healthcare Worker    |
-                    +----------------------+
-                               |
-      --------------------------------------------
-      |                     |                    |
-      |                     |                    |
-  Login            Collect Health Data    Update Records
++----------------------+
+| Healthcare Worker    |
++----------------------+
+        |
+-----------------------------
+|            |             |
+|            |             |
+Login    Collect Health   Update
+          Data            Records
 
 
-                    +----------------------+
-                    |       Doctor         |
-                    +----------------------+
-                               |
-      --------------------------------------------
-      |                     |                    |
-      |                     |                    |
-  Login            View Patient Data     Provide Advice
++----------------------+
+|        Doctor        |
++----------------------+
+        |
+-----------------------------
+|            |             |
+|            |             |
+Login     View Patient   Provide
+           Data          Advice
 
 
-                    +----------------------+
-                    |    Administrator     |
-                    +----------------------+
-                               |
-      --------------------------------------------
-      |                     |                    |
-      |                     |                    |
- Manage Users        Monitor System      Generate Reports
-```
++----------------------+
+|    Administrator     |
++----------------------+
+        |
+-----------------------------
+|            |             |
+|            |             |
+Manage      Monitor      Generate
+Users       System       Reports
+```      
