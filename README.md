@@ -67,7 +67,6 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Community Member (Patient)
 
                      
-## Use Case Diagram
 
 ```text
 +----------------------+
