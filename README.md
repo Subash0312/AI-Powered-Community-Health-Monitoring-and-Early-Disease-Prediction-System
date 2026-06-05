@@ -66,3 +66,44 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Healthcare Worker
 - Community Member (Patient)
 
+                    +----------------------+
+                    | Community Member     |
+                    |      (Patient)       |
+                    +----------------------+
+                               |
+      ------------------------------------------------
+      |              |              |               |
+      |              |              |               |
+  Register      Enter Health    View Health    Receive
+   Login            Data          Report        Alerts
+
+
+                    +----------------------+
+                    | Healthcare Worker    |
+                    +----------------------+
+                               |
+      --------------------------------------------
+      |                     |                    |
+      |                     |                    |
+  Login            Collect Health Data    Update Records
+
+
+                    +----------------------+
+                    |       Doctor         |
+                    +----------------------+
+                               |
+      --------------------------------------------
+      |                     |                    |
+      |                     |                    |
+  Login            View Patient Data     Provide Advice
+
+
+                    +----------------------+
+                    |    Administrator     |
+                    +----------------------+
+                               |
+      --------------------------------------------
+      |                     |                    |
+      |                     |                    |
+ Manage Users        Monitor System      Generate Reports
+```
