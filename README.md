@@ -54,6 +54,55 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 ### Report Generation
 🔸 Generates individual and community health reports.
 
++------------------+
+                          |  Administrator   |
+                          +------------------+
+                                   |
+          ------------------------------------------------
+          |                    |                        |
+          v                    v                        v
+     Manage Users      View Reports          Monitor System
+
+                                   |
+                                   |
+     ----------------------------------------------------------------
+     |                                                              |
+     v                                                              v
+
++------------------+                                    +------------------+
+| Healthcare Worker|                                    |      Doctor      |
++------------------+                                    +------------------+
+        |                                                         |
+        |                                                         |
+        v                                                         v
+  Collect Health Data                                   View Patient Data
+  Update Health Records                                 Analyze Predictions
+  Upload Vital Signs                                    Give Recommendations
+
+                             +----------------------+
+                             |   AI Prediction      |
+                             |       System         |
+                             +----------------------+
+                                      ^
+                                      |
+                                      |
+                           Predict Disease Risk
+                           Generate Reports
+                           Send Notifications
+
+                                      ^
+                                      |
+                                      |
+
+                          +----------------------+
+                          | Community Member     |
+                          |      (Patient)       |
+                          +----------------------+
+                                      |
+          ----------------------------------------------------
+          |                 |                |               |
+          v                 v                v               v
+      Register/Login   Enter Symptoms   View Reports   Receive Alerts
 ### Analytics Dashboard
 🔸 Displays health statistics, charts, and trend analysis.
 
@@ -67,65 +116,3 @@ Many diseases are detected only after symptoms become severe, leading to delayed
 - Healthcare Worker
 - Community Member (Patient)
 
-### Use Cases
-
-#### Administrator
-- Manage Users
-- View Reports
-- Monitor System
-
-#### Healthcare Worker
-- Collect Health Data
-- Update Health Records
-- Upload Vital Signs
-
-#### Doctor
-- View Patient Data
-- Analyze Predictions
-- Provide Recommendations
-
-#### Community Member (Patient)
-- Register/Login
-- Enter Symptoms
-- View Health Reports
-- Receive Alerts
-
-#### AI Prediction System
-- Predict Disease Risk
-- Generate Reports
-- Send Notifications
-
-### Use Case Structure
-
-```text
-Administrator
-    |
-    +--> Manage Users
-    +--> View Reports
-    +--> Monitor System
-
-Healthcare Worker
-    |
-    +--> Collect Health Data
-    +--> Update Health Records
-    +--> Upload Vital Signs
-
-Doctor
-    |
-    +--> View Patient Data
-    +--> Analyze Predictions
-    +--> Provide Recommendations
-
-Community Member (Patient)
-    |
-    +--> Register/Login
-    +--> Enter Symptoms
-    +--> View Health Reports
-    +--> Receive Alerts
-
-AI Prediction System
-    |
-    +--> Predict Disease Risk
-    +--> Generate Reports
-    +--> Send Notifications
-```
