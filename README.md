@@ -115,29 +115,19 @@ Manage      Monitor      Generate
 Users       System       Reports
 
 
-Table Name
-Purpose
-Users
-Stores login and profile information of patients, doctors, health workers, and administrators
-Health_Records
-Stores patient health data such as temperature, blood pressure, heart rate, blood sugar level, and symptoms
-Medical_History
-Stores previous diseases, treatments, medications, and medical records
-Disease_Predictions
-Stores AI-generated disease prediction results, risk levels, and prediction history
-Appointments
-Stores appointment details between patients and doctors
-Doctors
-Stores doctor information, specialization, qualification, and contact details
-Community_Health_Workers
-Stores health worker information and assigned community details
-Alerts
-Stores emergency alerts, disease outbreak warnings, and health recommendations
-Reports
-Stores generated health monitoring reports and disease prediction reports
-Feedback
-Stores user feedback, suggestions, and system reviews
-Roles
-Stores user roles and access permissions
-Notifications
-Stores reminders, alerts, prediction updates, and system notifications
+ ## Table List
+
+| Table Name | Purpose |
+|------------|----------|
+| Users | Stores login and profile information |
+| Health_Records | Stores patient health data |
+| Medical_History | Stores previous medical records |
+| Disease_Predictions | Stores AI prediction results |
+| Appointments | Stores appointment details |
+| Doctors | Stores doctor information |
+| Community_Health_Workers | Stores health worker details |
+| Alerts | Stores emergency alerts |
+| Reports | Stores generated reports |
+| Feedback | Stores user feedback |
+| Roles | Stores user roles |
+| Notifications | Stores system notifications |
