@@ -114,20 +114,11 @@ Login     View Patient   Provide
 Manage      Monitor      Generate
 Users       System       Reports
 
-
-  ## Table List
-
-| Table Name | Purpose |
-|------------|----------|
-| Users | Stores login and profile information of patients, doctors, health workers, and administrators |
-| Health_Records | Stores patient health data such as temperature, blood pressure, heart rate, blood sugar level, and symptoms |
-| Medical_History | Stores previous diseases, treatments, medications, and medical records |
-| Disease_Predictions | Stores AI-generated disease prediction results and risk levels |
-| Appointments | Stores appointment details between patients and doctors |
-| Doctors | Stores doctor information, specialization, and contact details |
-| Community_Health_Workers | Stores health worker information and assigned community details |
-| Alerts | Stores emergency alerts and health warnings |
-| Reports | Stores generated health monitoring and prediction reports |
-| Feedback | Stores user feedback and suggestions |
-| Roles | Stores user roles and permissions |
-| Notifications | Stores reminders, alerts, and prediction updates |
+## Table List
+Table Name Purpose
+Users Stores registration and login information for Patients, Health Workers, Doctors, and Administrators.
+Health_Metrics Tracks daily health data submitted by users (e.g., heart rate, blood pressure, temperature, symptoms).
+Disease_Predictions Stores AI model outputs, prediction confidence scores, and identified risk levels for early diseases.
+Alerts_Notifications Sends real-time emergency notifications to health workers or doctors if high-risk health metrics are detected.
+Medical_Consultations Tracks follow-up actions, doctor recommendations, and prescription notes based on AI predictions.
+Geographic_Clusters Groups health data by location to detect and monitor disease outbreaks within specific communities.
