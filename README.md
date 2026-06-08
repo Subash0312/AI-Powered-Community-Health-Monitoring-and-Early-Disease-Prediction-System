@@ -122,6 +122,20 @@ Disease_Predictions Stores AI model outputs, prediction confidence scores, and i
 Alerts_Notifications Sends real-time emergency notifications to health workers or doctors if high-risk health metrics are detected.
 Medical_Consultations Tracks follow-up actions, doctor recommendations, and prescription notes based on AI predictions.
 Geographic_Clusters Groups health data by location to detect and monitor disease outbreaks within specific communities.
-SQL Schema
-Description
-🔸 This SQL schema defines the database structure for the AI-Powered Community Health Monitoring and Early Disease Prediction System. It includes tables for users, health records, medical history, disease predictions, doctors, appointments, reports, and notifications.
+# SQL Schema
+
+## Description
+
+This SQL schema defines the database structure for the AI-Powered Community Health Monitoring and Early Disease Prediction System.
+
+## Users Table
+
+```sql
+CREATE TABLE users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100),
+    role VARCHAR(20)
+);
+```
