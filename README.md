@@ -114,15 +114,14 @@ Login     View Patient   Provide
 Manage      Monitor      Generate
 Users       System       Reports
 
-# SQL Schema
+SQL Schema
 
-## Description
+Description
 
 This SQL schema defines the database structure for the AI-Powered Community Health Monitoring and Early Disease Prediction System.
 
-## Users Table
+Users Table
 
-```sql
 CREATE TABLE users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
@@ -130,4 +129,13 @@ CREATE TABLE users (
     password VARCHAR(100),
     role VARCHAR(20)
 );
-```
+
+Health_Records Table
+
+CREATE TABLE health_records (
+    record_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    temperature DECIMAL(4,2),
+    blood_pressure VARCHAR(20),
+    heart_rate INT
+);
