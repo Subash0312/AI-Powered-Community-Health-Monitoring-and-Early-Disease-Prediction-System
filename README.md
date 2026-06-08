@@ -125,10 +125,10 @@ This SQL schema defines the database structure for the AI-Powered Community Heal
 ```sql
 CREATE TABLE users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    password VARCHAR(100),
-    role VARCHAR(20)
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL, -- Password hashing kaga length 255 ah mathiruken
+    role VARCHAR(20) DEFAULT 'user' -- Default role set panniruken
 );
 ```
 
