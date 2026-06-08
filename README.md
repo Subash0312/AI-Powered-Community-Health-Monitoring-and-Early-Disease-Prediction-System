@@ -114,7 +114,7 @@ Login     View Patient   Provide
 Manage      Monitor      Generate
 Users       System       Reports
 
-# SQL Schema
+## SQL Schema
 
 ## Description
 
